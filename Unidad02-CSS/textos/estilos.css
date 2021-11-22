@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+h1{
+	color:#FAE1F9;
+	font-size: 60px;
+	/*font-weight:lighter;*/
+	font-family: Dancing Script,cursive;
+	text-decoration: none;
+	font-style: normal;
+	text-align: center;
+	background-color: #A15CFF;
+	padding: 25px 20px 20px 25px;
+	height: 70px;
+
+}
+header,footer,main,nav{
+	width: 960px;
+	margin: auto;
+}
+section{
+	margin-bottom: 30px;
+}
+p#p01{
+	color:#002981;
+	font-family: Kalam,cursive;
+	text-align: center;
+	font-size: 22px;
+	letter-spacing: 3px;
+	line-height: 30px;
+	word-spacing: 2px;
+	/*text-shadow: 2px 2px 4px #756465;*/
+	background-color: #FF9DFC;
+	height: 35px;
+	padding: 25px 50px 50px 25px;
+	width: 750px;
+	margin: auto;
+}
+p#p02{
+	text-align: center;
+	font-family: Indie Flower,cursive;
+	color:#FFFFFFx;
+	font-size: 22px;
+	letter-spacing: 3px;
+	line-height: 30px;
+	word-spacing: 2px;
+	/*text-shadow: 2px 2px 4px #756465;*/
+	background-color: #B89DFF;
+	height: 35px;
+	padding: 25px 50px 110px 25px;
+	width: 750px;
+	margin: auto;
+}
+p#p03{
+	text-align: center;
+	font-family: Architects Daughter,cursive;
+	color:#002981;
+	font-size: 18px;
+	letter-spacing: 3px;
+	line-height: 30px;
+	word-spacing: 2px;
+	/*text-shadow: 2px 2px 4px #756465;*/
+	background-color: #FF9DC7;
+	height: 35px;
+	padding: 25px 50px 50px 25px;
+	width: 750px;
+	margin: auto;
+}
+p#p04{
+	text-align: center;
+	font-family: Caveat,cursive;
+	color:#91008D;
+	font-size: 28px;
+	letter-spacing: 3px;
+	line-height: 30px;
+	word-spacing: 2px;
+	/*text-shadow: 2px 2px 4px #756465;*/
+	background-color: #9DCBFF;
+	height: 35px;
+	padding: 25px 50px 50px 25px;
+	width: 750px;
+	margin: auto;
+}
+p#p05{
+	text-align: center;
+	font-family: Klee One,cursive;
+	color:#002981;
+	font-size: 22px;
+	letter-spacing: 3px;
+	line-height: 30px;
+	word-spacing: 2px;
+	/*text-shadow: 2px 2px 4px #756465;*/
+	background-color: #FF9DDA;
+	height: 35px;
+	padding: 25px 50px 80px 25px;
+	width: 750px;
+	margin: auto;
+}

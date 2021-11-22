@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Listas</title>
+		<style type="text/css">
+			*{
+				marging:0;
+				padding:10;
+			}
+		h1{
+			color:darkslategray;
+			font-size:50px;
+			}
+		h2{
+			color:#FFFDBE;
+			font-size:32px;
+			padding: 15px 10px 20px 10px; 
+			}
+			li{
+				color:#3D3D3D;
+			}
+			
+		h5{
+			color:darkslategray;
+			}
+		header,footer,main,nav{
+			width: 960px;
+			margin: 0 auto; /*esto es para notas, el marging auto centra todo en horizontal*/
+			}
+		header,footer{
+			height: 100px;	/*esto es para notas, el height es para el espacio entre uno y otro*/
+			padding: 20px;
+			text-align: center;
+			background-color: #FFF79D;
+			}
+		nav{
+			height: 10px;
+			padding: 20px;
+			background-color:#B5B5B5;
+			}
+		main{
+			height: auto;
+			padding: 20px;
+			background-color:#FFFDBE;
+			}
+		section{
+			background-color:#D3D3D3;
+			marging: 55px;
+			padding: 30px;
+			margin-bottom: 20px;
+			border:solid 5px #FFFEE8;
+			}
+		p{
+				padding: 10px;
+			}
+		</style>
+</head>
+
+<body>
+	<header>
+		<h1>LISTAS EN HTML</h1>
+	</header>
+	<nav></nav>
+	<main>
+		<section>
+			<h2>Lista desordenada o con viñeta</h2>
+			<ul>
+				<li>Libreta profesional</li>
+				<li>Tijeras</li>
+				<li>Pegamento</li>
+				<li>Colores</li>
+				<li>100 hojas blancas</li>
+				<li>Lápiz No.2 mirado</li>
+			</ul>	
+		</section>
+		<section>
+			<h2>Lista ordenada o con numerada</h2>
+		  	<ol>
+			<li>Sara Musalem</li>
+			<li>Jessica Mena</li>
+			<li>Victor Vargas</li>
+			<li>Angela Olivares</li>
+			<li>Francisco Faustino</li>
+			<li>Steffany Gomez</li>
+			</ol>
+		</section>
+		<section>
+			<h2>Lista mixta (ordenada y desordenada)</h2>
+			<ol>
+				<li>España</li>
+				<li>Argentina</li>
+				<li>México
+					<ul>
+						<li>Puebla</li>
+						<li>Veracruz</li>
+						<li>Guadalajara</li>
+					</ul>
+				</li>
+				<li>Estados Unidos</li>
+				<li>Italia
+					<ol>
+						<li>Roma</li>
+						<li>Florencia</li>
+						<li>Venecia</li>
+					</ol>
+				</li>
+				<li>Francia</li>
+			</ol>
+		</section>
+		<section>
+			<h2>Lista de descripción</h2>
+			<dl>
+				<dt>Usabilidad</dt>
+				
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quaerat necessitatibus aliquid minima odit laudantium, ex aut eos voluptate nostrum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, blanditiis. </dd>
+				
+				<dt>Accesibilidad</dt>
+				<dd>Lorem ipsum dolor Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, magnam. sit amet, consectetur adipisicing elit. Vel enim delectus facilis natus ducimus qui aspernatur exercitationem veniam blanditiis ea!</dd>
+				<dt>Interactividad</dt>
+				<dd>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, voluptas. consectetur adipisicing elit. Labore veniam dolorum dolorem, soluta optio iure aliquid tempore. Quidem aliquam, maxime.</dd>
+			</dl>
+		</section>
+		<section>
+			<h2>Lista con cambio de viñetas</h2>
+			<ol>
+				<li>Mamiferos
+					<ul style="list-style-type:disc;">
+						<li>Vaca</li>
+						<li>Humanos</li>
+						<li>Perros</li>
+					</ul>
+				</li>
+				<li>Reptiles
+					<ul style="list-style-type:square;">
+						<li>Lagartijas</li>
+						<li>Iguana</li>
+						<li>Serpientes</li>
+						<li>Camaleon</li>
+					</ul>
+				</li>
+				<li>Anfibios
+					<ul style="list-style-type:lower-roman;">
+						<li>Rana</li>
+						<li>Salamndra</li>
+						<li>Cecilia</li>
+					</ul>
+				</li>
+				<li>Felinos
+					<ul style="list-style-type:upper-roman;">
+					<li>Leopardo</li>
+					<li>Puma</li>
+					<li>Tigre</li>
+					</ul>
+				</li>
+				<li>Caninos
+                	<ul style="list-style-image:url('../ima/ico/threeleafclover_tres_hojas_3289.png');">
+					<li>Perros</li>
+					<li>Lobos</li>
+					<li>Coyotes</li>
+					</ul>
+				</li>
+				<li>Vertebrados</li>
+					<ul style="list-style-type:upper-alpha;">
+					<li>Murciélago</li>
+					<li>Perico</li>
+					<li>Iguana</li>
+					</ul>
+			</ol>
+		</section>
+	</main>
+	<footer>
+		<h5>Elaborado por: Sara Leonor Musalem González</h5>
+	</footer>
+	</body>
+</html>

@@ -1,0 +1,301 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Tablas en html</title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+		h1{
+				color:#FFAA00;
+				font-size: 50px;
+		} 
+		h2{
+				color:#EC5489;
+				font-size:32px;
+				padding: 15px 15px 15px 90px; 
+			}
+		h5{
+				color:antiquewhite;
+				padding: 25px 15px 15px 90px; 
+			}
+		header,footer,main,nav{
+				width: 960px;
+				margin:0 auto;/*Centra la caja automaticamente en hrizontal*/
+			}
+		header,footer{
+				height: 70px;
+				padding:0px;
+				text-align: center;
+				background-color:cadetblue;
+			}
+		nav{
+				height: 16px;
+				padding:0px;
+				background-color:cadetblue; 
+			}
+		main{
+				height: auto;
+				background-color:lightgray;
+				padding:0px; 
+			}
+		header{
+				background-color:#151723;
+				marging: 1px;
+				padding: 0px;
+			}
+		section{
+				background-color:#151723;
+				marging: 1px;
+				padding: 20px;
+			}
+		p{
+				padding: 10px;
+			}
+		table{
+			border-collapse; 		
+			}
+		th,td{
+			padding: 20px;
+			}
+		th{
+			text-align: left;
+			/*background-color: #2A2642;*/
+			color:#e2d5d0;
+			}
+		td{
+				/*background-color: cornsilk;*/
+				marging: 20px;
+				padding: 2px;
+			}
+			#t01{
+				border: double 4px #19CC49;
+			}
+			#t01 th{
+				background-color: #EB0FB3;
+			}
+			#t01 td{
+				background-color: #F8D9D9;
+			}
+			#t02 th, #t02 td{
+				padding: 15px;
+				text/align: left;
+			}
+			#t02 th{
+				background-color: #1134AE; 
+			}
+			#t02 tr:nth-child(even){
+				background-color: #D91515;
+			}	
+			#t02 tr:nth-child(odd){
+				background-color: #00CBA9;
+			}
+			.tabla th{
+				background-color: darkred;
+			}
+			.tabla td{
+				background-color: antiquewhite;
+			}
+			.tablaaux tr:hover{
+				background-color: #719F00;
+			}
+		</style>
+	</head>
+
+<body>
+	<header>
+		<h1>TABLAS EN HTML</h1>
+	</header>
+	<nav></nav>
+	<main>
+		<section>
+			<h2>Tabla simple</h2>
+			<table class="tabla" border="1">
+				<thead>
+					<tr>
+						<th>Nombre</th>
+						<th>Dirección</th>
+						<th>Teléfono</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Rick Sanchez</td>
+						<td>ricksanchez@gmail.com</td>
+						<td>2223269845</td>
+					</tr>
+					<tr>
+						<td>Beth Smith</td>
+						<td>bethsmith1@gmail.com</td>
+						<td>2226212219</td>
+					</tr>
+					<tr>
+						<td>Gerry Smith</td>
+						<td>gerrysmith22@gmail.com</td>
+						<td>2226282994</td>
+					</tr>
+					<tr>
+						<td>Summer S</td>
+						<td>summersmith6@gmail.com</td>
+						<td>2226351485</td>
+					</tr>
+					<tr>
+						<td>Morty Smith</td>
+						<td>mortysmith@gmail.com</td>
+						<td>2229987848</td>
+					</tr>
+					<tr>
+						<td>Scuanchi</td>
+						<td>scuanchi41@gmail.com</td>
+						<td>2236544815</td>
+					</tr>
+				</tbody>
+				<tfoot></tfoot>
+			</table>
+		</section>
+		<section>
+			<h2>Tabla con celda que abarca dos columnas</h2>
+			<table class="tabla" border="1">
+				<thead>
+					<tr>
+						<th>Nombre</th>
+						
+						<th colspan="2">Teléfono</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Jessica M</td>
+						<td>2624292715</td>
+						<td>222659856</td>
+					</tr>
+					<tr>
+						<td>Ethan Cortez</td>
+						<td>555 7654322</td>
+						<td>5556789008</td>
+					</tr>
+					<tr>
+						<td>Morty Malvado</td>
+						<td>7776548965</td>
+						<td>777256556</td>
+					</tr>
+				</tbody>
+				<tfoot></tfoot>
+			</table>
+		</section>
+		<section>
+		<h2>Tabla modificada apartir de reglas de identidad en css</h2>
+		<table width="600" border="1" id="t01">
+			<thead>
+				<tr>
+					<th scope="col">Nombre</th>
+					<th scope="col">Apellidos</th>
+					<th scope="col">Edad</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Maria</td>
+					<td>Flores Jimenez</td>
+					<td>15</td>
+				</tr>
+				<tr>
+					<td>José Manuel</td>
+					<td>López Perez</td>
+					<td>14</td>
+				</tr>
+				<tr>
+					<td>Paco</td>
+					<td>González Muñoz</td>
+					<td>21</td>
+				</tr>
+			</tbody>
+		</table>
+		</section>
+	 	<section>
+		<table id="t02" border="1">
+		  <thead>
+		    <tr>
+		      <th>Nombre</th>
+		      <th>Dirección</th>
+		      <th>Teléfono</th>
+	        </tr>
+	      </thead>
+		  <tbody>
+		    <tr>
+		      <td>Rick Sanchez</td>
+		      <td>ricksanchez@gmail.com</td>
+		      <td>2223269845</td>
+	        </tr>
+		    <tr>
+		      <td>Beth Smith</td>
+		      <td>bethsmith1@gmail.com</td>
+		      <td>2226212219</td>
+	        </tr>
+		    <tr>
+		      <td>Gerry Smith</td>
+		      <td>gerrysmith22@gmail.com</td>
+		      <td>2226282994</td>
+	        </tr>
+		    <tr>
+		      <td>Summer S</td>
+		      <td>summersmith6@gmail.com</td>
+		      <td>2226351485</td>
+	        </tr>
+		    <tr>
+		      <td>Morty Smith</td>
+		      <td>mortysmith@gmail.com</td>
+		      <td>2229987848</td>
+	        </tr>
+		    <tr>
+		      <td>Scuanchi</td>
+		      <td>scuanchi41@gmail.com</td>
+		      <td>2236544815</td>
+	        </tr>
+	      </tbody>
+		  <tfoot>
+	      </tfoot>
+	  </table>
+	</section>
+		<section>
+		<table class="tabla" id="tablaux"  width="500" border="1">	
+			<thead>
+				<tr>
+      				<td>Nombre</td>
+    				<td>María Lopez</td>
+     				<td>Femenino</td>
+    				<td>Basquetbol</td>
+  	  			</tr>
+				<tr>
+      				<td>Rick Hol</td>
+      				<td>12</td>
+     				<td>Masculino</td>
+    				<td>Futbol</td>
+  				</tr>
+				<tr>
+      				<td>Paco</td>
+      				<td>16</td>
+     				<td>Masculino</td>
+    				<td>Natación</td>
+  	  			</tr>
+				<tr>
+      				<td>Camila</td>
+      				<td>18</td>
+   					<td>Género</td>
+    				<td>Deporte</td>
+  			  	</tr>	
+				</thead>
+  			<tbody>
+    		
+			  </tbody>
+</table>
+
+		</section>
+	</main>
+	<footer>
+		<h5>Elaborado por:Sara Leonor Musalem González 23/08/21</h5>
+	</footer>
+	</body>
+</html>

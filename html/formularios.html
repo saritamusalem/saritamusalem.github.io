@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios</title>
+<link href="../css/style_enlaces.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<h1>Formularios en html</h1>
+	</header>
+	<nav>
+	<ul>
+		<li><a href="mi_primera_pagina.html">Mi primera pagina</a></li>	
+		<li><a href="tablas.html">Tablas</a></li>	
+		<li><a href="listas.html">Listas</a></li>	
+		<li><a href="enlaces.html">Enlaces</a></li>	
+		<li><a href="audio.html">Audio</a></li>	
+		<li><a href="videoooo.html">Video</a></li>	
+		<li><a href="Imagenes.html">Imágenes</a></li>	
+		<li><a href="animacion.html">Animación</a></li>	
+		<li><a href="formularios.html">Formularios</a></li>	
+	</ul>
+	</nav>
+	<main>
+		<section>
+		<h2>Inserción de formulario</h2>
+		<form id="form1" name="form1" method="get" action="action_page.html">
+			<label>Nombre</label>
+			<input type="text" id= "idname" name="nombre">
+			<input type="submit" id="submit" name="submit" value="Enviar">			
+		</form>
+		</section>
+			
+		<section>
+		<form id="form2" name="form1" method="get" action="action_page.html">
+			<h2>Inserción de formulario con casillas de verificación</h2>
+			<form>
+				<label>¿Cuáles son los géneros musicales que prefieres?</label>
+				<input type="checkbox" id="generom1" name="generom1" value="Pop">
+				<label for>Pop</label>
+				<input type="checkbox" id="generom2" name="generom2" value="Rock">
+				<label for="">Rock</label>
+				<input type="checkbox" id="generom3" name="generom3" value="Jazz">
+				<label for="">jazz</label>
+				<input type="checkbox" id="generom4" name="generom4" value="Alternativo">
+				<label for="">Alternativo</label>
+				<input type="submit" id="submit2" name="submit" value="Enviar">
+			</form>
+		</section>
+		
+			<section>
+			<h2>Inserción de formulario con botones de radio</h2>
+			<form id="form3" name="form" method="get" action="action_page.html">
+			<label>Genero</label>
+			<input type="radio" name="radio" id="radio1" value="radio">
+			<label for="radio">Femenino &nbsp;</label>
+			<input type="radio" name="radio" id="radio2" value="radio2">
+			<label for="radio2">Masculino&nbsp;</label>
+			<input type="submit" name="submit" id="sumbit3" value="Enviar">
+			</form>
+		</section>
+		
+		<section>
+			<h2>Formulario de contacto</h2>
+			<h3>Contacto</h3>
+			<form action="action_page.html" method="get">
+			<label>Contacto</label>
+			
+			<table width="50%%" border="1">
+	  <tbody>
+		<tr>
+		  <td><label for="textfield">Nombre&nbsp;</label>&nbsp;</td>
+		  <td><input type="text" name="textfiled" id="textfield">&nbsp;</td>
+		</tr>
+		<tr>
+		  <td><label for="email">Email</label>&nbsp;</td>
+		  <td><input type="email" name="email" id="email">&nbsp;</td>
+		</tr>
+		<tr>
+		  <td><label for="textarea">Mensaje</label>&nbsp;</td>
+		  <td><textarea name="textarea" id="textarea"></textarea>&nbsp;</td>
+		</tr>
+		<tr>
+		  <td><input type="submit" name="submit" id="submit4" value="Enviar">&nbsp;</td>
+		</tr>
+	  </tbody>
+		|	</table>
+			</form>
+		</section>
+		<section>
+		<h2>Inserción de ingreso o loging</h2>
+		<form action="action_page.html">
+			<label>Usuario</label>
+			<input type="text">
+			<label>Contraseña</label>
+			<input type="password">
+			<input type="submit" id="submit5" name="submit" value="Enviar">	
+			</form>
+		</section>
+</main>
+</body>
+</html>

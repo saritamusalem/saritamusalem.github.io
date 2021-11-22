@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Flexbox</title>
+	<style>
+		.box-conteiner-flex{
+			background-color: #5865F5;
+			display: flex;
+			margin: 10px 0;
+		}
+		.box-conteiner-flex> div, .box-conteiner-flex-2 > div, .box-conteiner-flex-3>div, .box-conteiner-flex-4>div, .box-conteiner-flex-5>div, .box-conteiner-flex-6>div, .box-conteiner-flex-7>div{
+			width: 400px;
+			background-color: #D1CECE;
+			margin: 10px;
+			padding: 10px;
+			font-size: 30px;
+	}
+		.box-conteiner-flex-3{
+			width: 300px;
+		}
+		.box-conteiner-flex-4{
+			width: 300px;
+		}
+		.box-conteiner-flex-2 {
+			background-color: #5865F5;
+			display: flex;
+			flex-direction: column;
+		}
+		.box-conteiner-flex-3 {
+			background-color: #5865F5;
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.box-conteiner-flex-4 {
+			background-color: #5865F5;
+			display: flex;
+			justify-content: center;
+		}
+		.box-conteiner-flex-5 {
+			background-color: #5865F5;
+			display: flex;
+			height: 400px;
+			align-items: center;
+		}
+			.box-conteiner-flex-6 {
+			background-color: #5865F5;
+			display: flex;
+			height: 600px;
+			align-items: center;
+			width: 300px;
+			margin: 10px;
+			flex-wrap: wrap;
+			align-content: space-between;
+		}
+			.box-conteiner-flex-7 {
+			background-color: #5865F5;
+			display: flex;
+			height: 600px;
+			align-items: center;
+			justify-content: center; 	
+		}
+	</style>
+</head>
+<body>
+	<header>Flexbox</header>
+	<nav></nav>
+	<main>
+		<section>
+		<h2>Flexbox</h2>
+		<div class="box-conteiner-flex">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+		</div>
+		</section>
+		<section>
+		<h2>Uso de la propiedad flex-direction: column, column reverse, row, row reverse</h2>
+		<div class="box-conteiner-flex-2">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+			<div>5</div>
+			<div>6</div>
+		</div>
+		</section>
+		<section>
+		<h2>Uso de la propiedad flex-wrap: Nowrap, wrap, wrapreverse</h2>
+		<div class="box-conteiner-flex-3">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+			<div>5</div>
+			<div>6</div>
+			<div>7</div>
+			<div>8</div>
+			<div>9</div>
+			<div>10</div>
+			<div>11</div>
+			<div>12</div>
+		</div>
+		</section>
+		<section>
+			<h2>Uso de la propiedad justufy-contet: center, flex-end, flex-start, space-around, space-between</h2>
+			<div class="box-conteiner-flex-4">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+			</div>
+		</section>
+		<section>
+			<h2>Uso de la propiedad aling-items: center, flex-end, flex-start, strech</h2>
+			<div class="box-conteiner-flex-5">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+			<div>5</div>
+			</div>
+		</section>
+			<section>
+			<h2>Uso de la propiedad aling-conttent: center, flex-end, flex-start, strech, space-around, space-between </h2>
+			<div class="box-conteiner-flex-6">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+			<div>5</div>
+			</div>
+		</section>
+		<section>
+			<h2>Centrado vertical y horizaontal </h2>
+			<div class="box-conteiner-flex-7">
+			<div>Contenido</div>
+			</div>
+		</section>
+	</main>
+	<footer></footer>
+	</body>
+</html>

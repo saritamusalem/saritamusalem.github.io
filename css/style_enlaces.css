@@ -1,0 +1,182 @@
+@charset "utf-8";
+header {
+    background-color: #FFC2AD;
+    color: #FFF0F0;
+    font-size: 40px;
+}
+header, nav, main, footer {
+    width: 95%;
+}
+footer {
+    height: 80px;
+    background-color: #5D7A7D;
+	color: #FFF0F0;
+	text-align: center;
+}
+footer h5 {
+    text-align: center;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+
+
+nav {
+    background-color: #ABE3EA;
+    height: auto;
+	width: 100%;
+
+}
+body nav ul {
+    text-decoration: none;
+	list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+	margin-left: 10px;
+	padding: 25px;
+    margin-right: 10px;
+	color: #FFFFFF;
+	font-weight: bolder;
+}
+
+
+* {
+    padding: 0;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body main section {
+    background-color: #198EEB;
+    margin-top: 50px;
+    padding: 20px;
+    margin-bottom: 50px;
+    border: medium double #FFFFFF;
+}
+img{
+    width: 30%;
+    margin-top: 30px;
+}
+#picture1 {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    float: right;
+}
+#section_1 {
+    overflow: auto;
+}
+
+
+main {
+    background-color: #FFC2AD;
+    padding: 50px;
+    color: #FFFFFF;
+}
+a{
+	text-decoration: none;
+}
+a:link{
+	color:#91008D;
+	font-weight: bolder;
+}
+
+a:visited{
+	color:#E78A6A;
+	font-weight: bolder;
+}
+
+a:hover {
+    color: #FFF000;
+    font-weight: bold;
+    font-size: large;
+}
+.enlace1 {
+}
+#enlace1 {
+}
+#enlace2 {
+}
+#enlace3 {
+}
+#enlace4 {
+}
+#picture1 {
+}
+
+main section p {
+    margin: 20px;
+}
+.margin_1 {
+    margin: 2px;
+}
+.opacidad {
+    opacity: 0.2;
+}
+
+.opacidad {
+}
+.opacidad2 {
+}
+.grises {
+    filter: grayscale(100);
+}
+.desenfoque {
+    filter: blur(5px);
+}
+.brillo {
+    filter: brightness(100%);
+}
+.contraste {
+    filter: contrast(50%);
+}
+.saturacion {
+    filter: saturate(20%);
+}
+.sepia {
+    filter: sepia(100%);
+}
+.invertir {
+    filter: invert(100%);
+}
+.rotacion_tono {
+    filter: hue-rotate(90deg);
+}
+input=[type=text]{
+	width:80%
+	padding: 10px;
+	marging: 10px 0;
+	backround-color: #DAA7EC;
+	color:white;
+	border: none;
+}
+
+input [type=text]{
+	width:80%;
+	padding: 10px;
+	margin: 10 px;
+	background-color: #DAA7EC;
+	color:white;
+	border:none;
+}
+input[type=text]:focus{
+	background-color: aliceblue;
+	color: cadetblue;
+	border: 3px solid #AFAFF3;
+}
+
+	
+input[type=button], input[type=submit]{
+	background-color: #4C4C93;
+	color: white;
+	padding: 10px 0;
+	border-radius:20px
+	
+	}
+	
